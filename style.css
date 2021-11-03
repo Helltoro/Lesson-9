@@ -1,0 +1,60 @@
+.body {
+	height: 700px;
+	width: auto;
+	background-color: grey;
+	margin: -20px -20px -20px -20px;
+	
+}
+
+a {
+	color: white;
+	margin-left: 30px;
+	text-decoration:none;
+}
+
+.menu {
+	color: white;
+
+}
+
+ul, li {
+	display: flex;
+	flex-direction: row-reverse;
+	list-style: none;
+	margin-right: 10px;
+	margin-top: -20px;
+}
+
+li:hover {
+	color: black;
+
+}
+
+.body_welcome {
+	color: white;
+	margin-top:200px;
+}
+
+button{
+	border: solid 1px white;
+	background-color: grey;
+	color: white;
+	width: 120px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.bottom{
+	height: 200px;
+	width: auto;
+	margin: 20px 20px 20px 20px;
+}	
+
+.bottom_text{
+	margin-top:75px;
+
+}
+
+hr{
+	width: 50px;
+}
