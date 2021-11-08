@@ -47,7 +47,7 @@ button{
 .bottom{
 	height: 200px;
 	width: auto;
-	margin: 20px 20px 20px 20px;
+	margin: -20px -20px -20px -20px;
 }	
 
 .bottom_text{
@@ -58,3 +58,64 @@ button{
 hr{
 	width: 50px;
 }
+
+.services {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.oval {
+	height: 350px;
+	width: 33.3%;
+	margin: 20px 20px 20px 20px;
+}
+
+.clean {
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	border-color: lightgrey;
+	border-radius: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}	
+
+.clean:hover {
+	background-color: darkred;
+}
+
+.bottom_orange{
+	width: 100%;
+	height: 150px;
+	background-color: darkred;
+	margin-top: 200px;
+	
+}
+
+.litle_sircles {
+	width: 50px;
+	height: 50px;
+	border:1px solid;
+	border-color: white;
+	border-radius: 100%;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.litle{
+	width: 250px;
+	height: 50px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+	flex-direction: row;
+}
+
+.litle_sircles:hover {
+	background-color: white;
+}
+
